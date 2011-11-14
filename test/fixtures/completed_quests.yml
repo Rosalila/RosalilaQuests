@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  quest_id: 1
+  reviewer_id: 1
+  profile_id: 1
+  experience_won: 1
+  kelo_won: 1
+  comment: MyText
+
+two:
+  quest_id: 1
+  reviewer_id: 1
+  profile_id: 1
+  experience_won: 1
+  kelo_won: 1
+  comment: MyText

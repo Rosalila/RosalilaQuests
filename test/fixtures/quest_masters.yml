@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  profile_id: 1
+  speciality_id: 1
+  level: 1
+
+two:
+  profile_id: 1
+  speciality_id: 1
+  level: 1

@@ -1,0 +1,41 @@
+<%= form_for(@completed_quest) do |f| %>
+  <% if @completed_quest.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@completed_quest.errors.count, "error") %> prohibited this completed_quest from being saved:</h2>
+
+      <ul>
+      <% @completed_quest.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :quest_id %><br />
+    <%= f.number_field :quest_id %>
+  </div>
+  <div class="field">
+    <%= f.label :reviewer_id %><br />
+    <%= f.number_field :reviewer_id %>
+  </div>
+  <div class="field">
+    <%= f.label :profile_id %><br />
+    <%= f.number_field :profile_id %>
+  </div>
+  <div class="field">
+    <%= f.label :experience_won %><br />
+    <%= f.number_field :experience_won %>
+  </div>
+  <div class="field">
+    <%= f.label :kelo_won %><br />
+    <%= f.number_field :kelo_won %>
+  </div>
+  <div class="field">
+    <%= f.label :comment %><br />
+    <%= f.text_area :comment %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

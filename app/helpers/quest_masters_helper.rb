@@ -1,0 +1,2 @@
+module QuestMastersHelper
+end

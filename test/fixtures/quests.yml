@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  creator_id: 1
+  speciality_id: 1
+  level: 1
+  name: MyString
+  description: MyText
+  experience: 1
+  kelo_description: MyText
+  kelo_experience: 1
+
+two:
+  creator_id: 1
+  speciality_id: 1
+  level: 1
+  name: MyString
+  description: MyText
+  experience: 1
+  kelo_description: MyText
+  kelo_experience: 1

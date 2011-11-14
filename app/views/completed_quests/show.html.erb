@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Quest:</b>
+  <%= @completed_quest.quest_id %>
+</p>
+
+<p>
+  <b>Reviewer:</b>
+  <%= @completed_quest.reviewer_id %>
+</p>
+
+<p>
+  <b>Profile:</b>
+  <%= @completed_quest.profile_id %>
+</p>
+
+<p>
+  <b>Experience won:</b>
+  <%= @completed_quest.experience_won %>
+</p>
+
+<p>
+  <b>Kelo won:</b>
+  <%= @completed_quest.kelo_won %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%= @completed_quest.comment %>
+</p>
+
+
+<%= link_to 'Edit', edit_completed_quest_path(@completed_quest) %> |
+<%= link_to 'Back', completed_quests_path %>

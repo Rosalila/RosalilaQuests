@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Profile:</b>
+  <%= @quest_master.profile_id %>
+</p>
+
+<p>
+  <b>Speciality:</b>
+  <%= @quest_master.speciality_id %>
+</p>
+
+<p>
+  <b>Level:</b>
+  <%= @quest_master.level %>
+</p>
+
+
+<%= link_to 'Edit', edit_quest_master_path(@quest_master) %> |
+<%= link_to 'Back', quest_masters_path %>

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  dependant_id: 1
+  dependancy: 1
+
+two:
+  dependant_id: 1
+  dependancy: 1

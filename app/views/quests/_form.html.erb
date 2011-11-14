@@ -1,0 +1,50 @@
+<%= form_for(@quest) do |f| %>
+  <% if @quest.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@quest.errors.count, "error") %> prohibited this quest from being saved:</h2>
+
+      <ul>
+      <% @quest.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :creator_id %><br />
+    <%= f.number_field :creator_id %>
+<%= collection_select(:afsd, :id, Profile.all, :id, :nick, options ={:prompt => "-Select a payment"}, :class =>"profile") %>
+  </div>
+  <div class="field">
+    <%= f.label :speciality_id %><br />
+    <%= f.number_field :speciality_id %>
+  </div>
+  <div class="field">
+    <%= f.label :level %><br />
+    <%= f.number_field :level %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="field">
+    <%= f.label :experience %><br />
+    <%= f.number_field :experience %>
+  </div>
+  <div class="field">
+    <%= f.label :kelo_description %><br />
+    <%= f.text_area :kelo_description %>
+  </div>
+  <div class="field">
+    <%= f.label :kelo_experience %><br />
+    <%= f.number_field :kelo_experience %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

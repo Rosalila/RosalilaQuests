@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Dependant:</b>
+  <%= @quest_tree.dependant_id %>
+</p>
+
+<p>
+  <b>Dependancy:</b>
+  <%= @quest_tree.dependancy %>
+</p>
+
+
+<%= link_to 'Edit', edit_quest_tree_path(@quest_tree) %> |
+<%= link_to 'Back', quest_trees_path %>

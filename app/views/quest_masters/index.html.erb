@@ -1,0 +1,27 @@
+<h1>Listing quest_masters</h1>
+
+<table>
+  <tr>
+    <th>Profile</th>
+    <th>Speciality</th>
+    <th>Level</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @quest_masters.each do |quest_master| %>
+  <tr>
+    <td><%= quest_master.profile_id %></td>
+    <td><%= quest_master.speciality_id %></td>
+    <td><%= quest_master.level %></td>
+    <td><%= link_to 'Show', quest_master %></td>
+    <td><%= link_to 'Edit', edit_quest_master_path(quest_master) %></td>
+    <td><%= link_to 'Destroy', quest_master, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Quest master', new_quest_master_path %>

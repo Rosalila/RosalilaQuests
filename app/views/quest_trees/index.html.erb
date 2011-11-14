@@ -1,0 +1,25 @@
+<h1>Listing quest_trees</h1>
+
+<table>
+  <tr>
+    <th>Dependant</th>
+    <th>Dependancy</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @quest_trees.each do |quest_tree| %>
+  <tr>
+    <td><%= quest_tree.dependant_id %></td>
+    <td><%= quest_tree.dependancy %></td>
+    <td><%= link_to 'Show', quest_tree %></td>
+    <td><%= link_to 'Edit', edit_quest_tree_path(quest_tree) %></td>
+    <td><%= link_to 'Destroy', quest_tree, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Quest tree', new_quest_tree_path %>

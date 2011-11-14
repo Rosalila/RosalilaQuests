@@ -1,0 +1,30 @@
+<h1>Listing profiles</h1>
+
+<table>
+  <tr>
+    <th>Users</th>
+    <th>Real name</th>
+    <th>Nick</th>
+    <th>Picture</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @profiles.each do |profile| %>
+  <tr>
+    <td><%= profile.users_id %></td>
+    <td><%= User.where(:id=>profile.users_id)[0].email %></td>
+    <td><%= profile.real_name %></td>
+    <td><%= profile.nick %></td>
+    <td><%= profile.picture %></td>
+    <td><%= link_to 'Show', profile %></td>
+    <td><%= link_to 'Edit', edit_profile_path(profile) %></td>
+    <td><%= link_to 'Destroy', profile, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Profile', new_profile_path %>

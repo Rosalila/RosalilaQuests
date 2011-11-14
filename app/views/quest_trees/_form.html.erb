@@ -1,0 +1,25 @@
+<%= form_for(@quest_tree) do |f| %>
+  <% if @quest_tree.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@quest_tree.errors.count, "error") %> prohibited this quest_tree from being saved:</h2>
+
+      <ul>
+      <% @quest_tree.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :dependant_id %><br />
+    <%= f.number_field :dependant_id %>
+  </div>
+  <div class="field">
+    <%= f.label :dependancy %><br />
+    <%= f.number_field :dependancy %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

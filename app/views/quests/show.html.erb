@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Creator:</b>
+  <%= @quest.creator_id %>
+</p>
+
+<p>
+  <b>Speciality:</b>
+  <%= @quest.speciality_id %>
+</p>
+
+<p>
+  <b>Level:</b>
+  <%= @quest.level %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @quest.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @quest.description %>
+</p>
+
+<p>
+  <b>Experience:</b>
+  <%= @quest.experience %>
+</p>
+
+<p>
+  <b>Kelo description:</b>
+  <%= @quest.kelo_description %>
+</p>
+
+<p>
+  <b>Kelo experience:</b>
+  <%= @quest.kelo_experience %>
+</p>
+
+
+<%= link_to 'Edit', edit_quest_path(@quest) %> |
+<%= link_to 'Back', quests_path %>

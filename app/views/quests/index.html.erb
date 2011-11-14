@@ -1,0 +1,37 @@
+<h1>Listing quests</h1>
+
+<table>
+  <tr>
+    <th>Creator</th>
+    <th>Speciality</th>
+    <th>Level</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Experience</th>
+    <th>Kelo description</th>
+    <th>Kelo experience</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @quests.each do |quest| %>
+  <tr>
+    <td><%= quest.creator_id %></td>
+    <td><%= quest.speciality_id %></td>
+    <td><%= quest.level %></td>
+    <td><%= quest.name %></td>
+    <td><%= quest.description %></td>
+    <td><%= quest.experience %></td>
+    <td><%= quest.kelo_description %></td>
+    <td><%= quest.kelo_experience %></td>
+    <td><%= link_to 'Show', quest %></td>
+    <td><%= link_to 'Edit', edit_quest_path(quest) %></td>
+    <td><%= link_to 'Destroy', quest, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Quest', new_quest_path %>
