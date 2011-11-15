@@ -11,6 +11,7 @@ gem 'pg'
 
 gem 'execjs'
 gem 'therubyracer'
+gem "thin"
 #gem "taps", "~> 0.3.23"
 
 
