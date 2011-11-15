@@ -7,11 +7,11 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'pg'
 
 gem 'execjs'
 gem 'therubyracer'
-gem "taps", "~> 0.3.23"
+#gem "taps", "~> 0.3.23"
 
 
 gem "paperclip", "~> 2.4.5"

@@ -4427,3 +4427,496 @@ Served asset /specialties.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-11-13 21:47:43 -0600
 Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/specialties" for 127.0.0.1 at 2011-11-14 16:46:09 -0600
+  Processing by SpecialtiesController#index as HTML
+  [1m[36mSpecialty Load (0.3ms)[0m  [1mSELECT "specialties".* FROM "specialties" [0m
+Rendered specialties/index.html.erb within layouts/application (47.9ms)
+Compiled home.css  (35ms)  (pid 8297)
+Compiled profiles.css  (1ms)  (pid 8297)
+Compiled scaffolds.css  (7ms)  (pid 8297)
+Compiled secret.css  (57ms)  (pid 8297)
+Compiled sessions.css  (1ms)  (pid 8297)
+Compiled specialties.css  (1ms)  (pid 8297)
+Compiled users.css  (1ms)  (pid 8297)
+Compiled jquery.js  (3ms)  (pid 8297)
+Compiled jquery_ujs.js  (0ms)  (pid 8297)
+Compiled home.js  (109ms)  (pid 8297)
+Compiled profiles.js  (1ms)  (pid 8297)
+Compiled sessions.js  (0ms)  (pid 8297)
+Compiled specialties.js  (0ms)  (pid 8297)
+Compiled users.js  (0ms)  (pid 8297)
+Rendered shared/_login.html.erb (2.5ms)
+Completed 200 OK in 598ms (Views: 594.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /completed_quests.css - 200 OK (11ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /secret.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /quest_masters.css - 200 OK (7ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /profiles.css - 200 OK (13ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /quests.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /quest_trees.css - 200 OK (7ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /home.css - 200 OK (4ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /specialties.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /sessions.css - 200 OK (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /users.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /profiles.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /sessions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /specialties.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-14 16:46:12 -0600
+Served asset /users.js - 304 Not Modified (3ms)
+  [1m[36m (28.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (1.0ms)[0m  SHOW search_path
+  [1m[36m (11.4ms)[0m  [1m SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'schema_migrations'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname IN ('"$user"','public') )
+ ORDER BY i.relname
+[0m
+  [1m[35m (73.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20111031101646)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (121.3ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying(255), "password_digest" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (2.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20111031101646')
+  [1m[36m (6.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateProfiles (20111114013525)
+  [1m[35m (2.0ms)[0m  BEGIN
+  [1m[36m (83.7ms)[0m  [1mCREATE TABLE "profiles" ("id" serial primary key, "users_id" integer, "real_name" character varying(255), "nick" character varying(255), "picture" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (5.0ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'profiles'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname IN ('"$user"','public') )
+ ORDER BY i.relname
+  [1m[36m (59.7ms)[0m  [1mCREATE INDEX "index_profiles_on_users_id" ON "profiles" ("users_id")[0m
+  [1m[35m (1.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20111114013525')
+  [1m[36m (5.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateSpecialties (20111114024625)
+  [1m[35m (3.1ms)[0m  BEGIN
+  [1m[36m (133.9ms)[0m  [1mCREATE TABLE "specialties" ("id" serial primary key, "name" character varying(255), "description" character varying(255), "picture" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (0.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20111114024625')
+  [1m[36m (22.5ms)[0m  [1mCOMMIT[0m
+Migrating to CreateQuests (20111114024626)
+  [1m[35m (1.8ms)[0m  BEGIN
+  [1m[36m (85.2ms)[0m  [1mCREATE TABLE "quests" ("id" serial primary key, "creator_id" integer, "speciality_id" integer, "level" integer, "name" character varying(255), "description" text, "experience" integer, "kelo_description" text, "kelo_experience" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20111114024626')
+  [1m[36m (10.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateCompletedQuests (20111114024627)
+  [1m[35m (1.8ms)[0m  BEGIN
+  [1m[36m (121.1ms)[0m  [1mCREATE TABLE "completed_quests" ("id" serial primary key, "quest_id" integer, "reviewer_id" integer, "profile_id" integer, "experience_won" integer, "kelo_won" integer, "comment" text, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20111114024627')
+  [1m[36m (69.4ms)[0m  [1mCOMMIT[0m
+Migrating to CreateQuestTrees (20111114024628)
+  [1m[35m (1.6ms)[0m  BEGIN
+  [1m[36m (40.7ms)[0m  [1mCREATE TABLE "quest_trees" ("id" serial primary key, "dependant_id" integer, "dependancy" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (0.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20111114024628')
+  [1m[36m (16.9ms)[0m  [1mCOMMIT[0m
+Migrating to CreateQuestMasters (20111114024629)
+  [1m[35m (1.4ms)[0m  BEGIN
+  [1m[36m (29.0ms)[0m  [1mCREATE TABLE "quest_masters" ("id" serial primary key, "profile_id" integer, "speciality_id" integer, "level" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (0.8ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20111114024629')
+  [1m[36m (16.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.7ms)[0m  [1mSHOW search_path[0m
+  [1m[35m (2.4ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'completed_quests'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname IN ('"$user"','public') )
+ ORDER BY i.relname
+  [1m[36m (4.8ms)[0m  [1m SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'profiles'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname IN ('"$user"','public') )
+ ORDER BY i.relname
+[0m
+  [1m[35mColumns for index index_profiles_on_users_id on profiles (1.7ms)[0m   SELECT a.attnum, a.attname
+ FROM pg_attribute a
+ WHERE a.attrelid = 16404
+ AND a.attnum IN (2)
+  [1m[36m (1.6ms)[0m  [1m SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'quest_masters'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname IN ('"$user"','public') )
+ ORDER BY i.relname
+[0m
+  [1m[35m (1.7ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'quest_trees'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname IN ('"$user"','public') )
+ ORDER BY i.relname
+  [1m[36m (4.2ms)[0m  [1m SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'quests'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname IN ('"$user"','public') )
+ ORDER BY i.relname
+[0m
+  [1m[35m (4.4ms)[0m   SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'specialties'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname IN ('"$user"','public') )
+ ORDER BY i.relname
+  [1m[36m (4.3ms)[0m  [1m SELECT distinct i.relname, d.indisunique, d.indkey, t.oid
+ FROM pg_class t
+ INNER JOIN pg_index d ON t.oid = d.indrelid
+ INNER JOIN pg_class i ON d.indexrelid = i.oid
+ WHERE i.relkind = 'i'
+ AND d.indisprimary = 'f'
+ AND t.relname = 'users'
+ AND i.relnamespace IN (SELECT oid FROM pg_namespace WHERE nspname IN ('"$user"','public') )
+ ORDER BY i.relname
+[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-15 02:35:29 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (26.5ms)
+Cache for Asset (application.js) is stale
+/usr/local/rvm/gems/ruby-1.9.2-p290/gems/jquery-rails-1.0.16/vendor/assets/javascripts/jquery.js isn't in paths: /root/Rosalila Quest/app/assets/images, /root/Rosalila Quest/app/assets/javascripts, /root/Rosalila Quest/app/assets/stylesheets, /root/Rosalila Quest/vendor/assets/stylesheets, /usr/local/rvm/gems/ruby-1.9.2-p290/gems/jquery-rails-1.0.17/vendor/assets/javascripts
+Compiled application.js  (9ms)  (pid 17164)
+Compiled jquery.js  (6ms)  (pid 17164)
+Compiled jquery_ujs.js  (0ms)  (pid 17164)
+Rendered shared/_login.html.erb (2.4ms)
+Completed 200 OK in 357ms (Views: 356.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /completed_quests.css - 200 OK (19ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /quests.css - 200 OK (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /home.css - 200 OK (3ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /profiles.css - 200 OK (3ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /quest_masters.css - 200 OK (3ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /quest_trees.css - 200 OK (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /jquery.js - 200 OK (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /secret.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /sessions.css - 200 OK (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /users.css - 200 OK (3ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /specialties.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /completed_quests.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /profiles.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /quest_masters.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /quest_trees.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /quests.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /sessions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /specialties.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:31 -0600
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (17.4ms)
+Rendered shared/_login.html.erb (1.4ms)
+Completed 200 OK in 39ms (Views: 35.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /secret.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /completed_quests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /profiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /quest_masters.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /quest_trees.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /quests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /specialties.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:36 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/specialties" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+  Processing by SpecialtiesController#index as HTML
+  [1m[36mSpecialty Load (0.8ms)[0m  [1mSELECT "specialties".* FROM "specialties" [0m
+Rendered specialties/index.html.erb within layouts/application (2.5ms)
+Rendered shared/_login.html.erb (1.2ms)
+Completed 200 OK in 27ms (Views: 23.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /secret.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /quest_masters.css - 200 OK (3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /completed_quests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /profiles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /quest_masters.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /quest_trees.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /quests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /specialties.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-15 02:35:58 -0600
+Served asset /users.js - 304 Not Modified (0ms)
