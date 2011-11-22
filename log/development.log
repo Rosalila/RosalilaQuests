@@ -5364,3 +5364,1211 @@ Served asset /quest_trees.css - 200 OK (0ms)
 
 Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-15 03:14:33 -0600
 Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/quests" for 127.0.0.1 at 2011-11-15 04:37:55 -0600
+  Processing by QuestsController#index as HTML
+  [1m[36mQuest Load (0.8ms)[0m  [1mSELECT "quests".* FROM "quests" [0m
+Rendered quests/index.html.erb within layouts/application (25.3ms)
+Rendered shared/_login.html.erb (3.9ms)
+Completed 200 OK in 575ms (Views: 571.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-15 04:37:58 -0600
+Served asset /completed_quests.css - 200 OK (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-15 04:37:58 -0600
+Served asset /home.css - 200 OK (6ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-15 04:37:58 -0600
+Served asset /sessions.css - 200 OK (3ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-15 04:37:58 -0600
+Served asset /profiles.css - 200 OK (3ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-15 04:37:58 -0600
+Served asset /quest_masters.css - 200 OK (3ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-15 04:37:58 -0600
+Served asset /quest_trees.css - 200 OK (3ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-15 04:37:58 -0600
+Served asset /quests.css - 200 OK (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-15 04:37:58 -0600
+Served asset /users.css - 200 OK (10ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-15 04:37:58 -0600
+Served asset /specialties.css - 200 OK (4ms)
+
+
+Started GET "/quests/new" for 127.0.0.1 at 2011-11-15 04:38:22 -0600
+  Processing by QuestsController#new as HTML
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" 
+Rendered quests/_form.html.erb (60.4ms)
+Rendered quests/new.html.erb within layouts/application (63.6ms)
+Rendered shared/_login.html.erb (1.3ms)
+Completed 200 OK in 100ms (Views: 91.2ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-15 04:38:22 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-15 04:38:22 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-15 04:38:22 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-15 04:38:22 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-15 04:38:22 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-15 04:38:22 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-15 04:38:22 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-15 04:38:22 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-15 04:38:23 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-21 00:10:24 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (26.0ms)
+Rendered shared/_login.html.erb (4.2ms)
+Completed 200 OK in 819ms (Views: 818.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /completed_quests.css - 200 OK (12ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /profiles.css - 200 OK (3ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /quests.css - 200 OK (3ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /quest_masters.css - 200 OK (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /home.css - 200 OK (3ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /quest_trees.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /scaffolds.css - 200 OK (4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /sessions.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /jquery.js - 200 OK (70ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /specialties.css - 200 OK (3ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /secret.css - 200 OK (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /users.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /jquery_ujs.js - 200 OK (6ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /completed_quests.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /profiles.js - 200 OK (4ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /quest_masters.js - 200 OK (3ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /quest_trees.js - 200 OK (3ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /quests.js - 200 OK (4ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /sessions.js - 200 OK (5ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2011-11-21 00:10:27 -0600
+Served asset /specialties.js - 200 OK (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-21 00:10:28 -0600
+Served asset /users.js - 200 OK (3ms)
+
+
+Started GET "/profiles" for 127.0.0.1 at 2011-11-21 00:10:43 -0600
+  Processing by ProfilesController#index as HTML
+  [1m[36mProfile Load (1.1ms)[0m  [1mSELECT "profiles".* FROM "profiles" [0m
+Rendered profiles/index.html.erb within layouts/application (65.3ms)
+Rendered shared/_login.html.erb (1.3ms)
+Completed 200 OK in 107ms (Views: 100.4ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:43 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:43 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:43 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:43 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:43 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:43 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:43 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:43 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-21 00:10:43 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-21 00:10:44 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/quests" for 127.0.0.1 at 2011-11-21 00:11:05 -0600
+  Processing by QuestsController#index as HTML
+  [1m[35mQuest Load (0.8ms)[0m  SELECT "quests".* FROM "quests" 
+Rendered quests/index.html.erb within layouts/application (20.3ms)
+Rendered shared/_login.html.erb (1.4ms)
+Completed 200 OK in 54ms (Views: 48.1ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:05 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:05 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:05 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:05 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:05 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:05 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:05 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:05 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:05 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:05 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-21 00:11:05 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/specialties" for 127.0.0.1 at 2011-11-21 00:11:19 -0600
+  Processing by SpecialtiesController#index as HTML
+  [1m[36mSpecialty Load (0.9ms)[0m  [1mSELECT "specialties".* FROM "specialties" [0m
+Rendered specialties/index.html.erb within layouts/application (27.1ms)
+Rendered shared/_login.html.erb (1.2ms)
+Completed 200 OK in 62ms (Views: 55.5ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:19 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:20 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:20 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:20 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:20 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:20 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:20 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:20 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-21 00:11:20 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-21 00:11:20 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-22 01:07:34 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (26.1ms)
+Rendered shared/_login.html.erb (2.3ms)
+Completed 200 OK in 316ms (Views: 315.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /completed_quests.css - 200 OK (12ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /quest_masters.css - 200 OK (3ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /profiles.css - 200 OK (4ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /quests.css - 200 OK (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /home.css - 200 OK (3ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /quest_trees.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /sessions.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /specialties.css - 200 OK (4ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /secret.css - 200 OK (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /users.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /completed_quests.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /profiles.js - 200 OK (3ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /quest_masters.js - 200 OK (5ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /quest_trees.js - 200 OK (3ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /quests.js - 200 OK (4ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /sessions.js - 200 OK (3ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /specialties.js - 200 OK (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-11-22 01:07:37 -0600
+Served asset /users.js - 200 OK (3ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-11-22 01:07:40 -0600
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (17.1ms)
+Rendered shared/_login.html.erb (1.3ms)
+Completed 200 OK in 39ms (Views: 35.4ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:41 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:41 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:41 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:41 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:41 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:41 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:41 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:41 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:07:41 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:07:41 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-11-22 01:07:46 -0600
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"beI7kb+rrtcdlrMdxvUouYZdicSTRWn10Qb8pfrmb20=", "user"=>{"email"=>"jorge", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (98.1ms)[0m  INSERT INTO "users" ("created_at", "email", "password_digest", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", 2011-11-22 07:07:46 UTC], ["email", "jorge"], ["password_digest", "$2a$10$SKBf4QPSTFTOiQ5xkXgvUerApQPD1INk/C/0q9PRQq49mMz2FYpr6"], ["updated_at", 2011-11-22 07:07:46 UTC]]
+PGError: ERROR:  null value in column "id" violates not-null constraint
+: INSERT INTO "users" ("created_at", "email", "password_digest", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 203ms
+
+ActiveRecord::StatementInvalid (PGError: ERROR:  null value in column "id" violates not-null constraint
+: INSERT INTO "users" ("created_at", "email", "password_digest", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"):
+  app/controllers/users_controller.rb:9:in `create'
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.7ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-22 01:11:25 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.2ms)
+Rendered shared/_login.html.erb (1.3ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:25 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:25 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:25 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:25 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:25 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:25 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:25 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:25 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:25 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:11:25 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-11-22 01:11:34 -0600
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (14.2ms)
+Rendered shared/_login.html.erb (1.6ms)
+Completed 200 OK in 37ms (Views: 33.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:34 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:34 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:34 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:34 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:34 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:34 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:34 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:34 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:34 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:11:34 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-11-22 01:11:40 -0600
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"beI7kb+rrtcdlrMdxvUouYZdicSTRWn10Qb8pfrmb20=", "user"=>{"email"=>"jorge", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (52.8ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "id", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", 2011-11-22 07:11:41 UTC], ["email", "jorge"], ["id", 200], ["password_digest", "$2a$10$EX9LBwuZas6iB0iLXkJ3SO.5ijNbjZlMoijY4NYn8EkYsm0OJvQtW"], ["updated_at", 2011-11-22 07:11:41 UTC]]
+  [1m[35m (31.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 193ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-22 01:11:41 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Rendered shared/_login.html.erb (1.3ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:41 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:41 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:41 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:41 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:41 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:41 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:41 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:41 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:11:41 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:11:41 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-11-22 01:12:16 -0600
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (19.4ms)
+Rendered shared/_login.html.erb (1.2ms)
+Completed 200 OK in 43ms (Views: 38.3ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:12:16 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:12:16 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:12:16 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:12:16 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:12:16 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:12:16 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:12:16 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:12:16 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:12:16 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:12:16 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-11-22 01:12:36 -0600
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"beI7kb+rrtcdlrMdxvUouYZdicSTRWn10Qb8pfrmb20=", "user"=>{"email"=>"ee", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "users" ("created_at", "email", "id", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", 2011-11-22 07:12:36 UTC], ["email", "ee"], ["id", 200], ["password_digest", "$2a$10$x0KGEZo3VwjD5rA80vFNwe7JBQbuS8jC4cIDyyCTXTG9Ihx.btU7W"], ["updated_at", 2011-11-22 07:12:36 UTC]]
+PGError: ERROR:  duplicate key value violates unique constraint "users_pkey"
+: INSERT INTO "users" ("created_at", "email", "id", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 105ms
+
+ActiveRecord::RecordNotUnique (PGError: ERROR:  duplicate key value violates unique constraint "users_pkey"
+: INSERT INTO "users" ("created_at", "email", "id", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"):
+  app/controllers/users_controller.rb:10:in `create'
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-22 01:15:38 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.2ms)
+Rendered shared/_login.html.erb (1.3ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:39 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:39 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:39 -0600
+Served asset /profiles.css - 200 OK (4ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:39 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:39 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:39 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:39 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:39 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:39 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:15:39 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-11-22 01:15:50 -0600
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (14.6ms)
+Rendered shared/_login.html.erb (1.3ms)
+Completed 200 OK in 36ms (Views: 32.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:50 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:50 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:50 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:50 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:50 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:50 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:50 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:50 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:50 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:15:50 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:15:50 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-11-22 01:15:56 -0600
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"beI7kb+rrtcdlrMdxvUouYZdicSTRWn10Qb8pfrmb20=", "user"=>{"email"=>"ii", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (1.1ms)[0m  SELECT COUNT(*) FROM "users" 
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 21]]
+Completed 404 Not Found in 112ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=21):
+  app/controllers/users_controller.rb:9:in `create'
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-22 01:19:41 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Rendered shared/_login.html.erb (1.3ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:41 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:41 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:41 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:41 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:41 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:41 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:41 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:42 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:42 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:19:42 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-11-22 01:19:45 -0600
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (14.0ms)
+Rendered shared/_login.html.erb (1.3ms)
+Completed 200 OK in 36ms (Views: 32.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:45 -0600
+Served asset /completed_quests.css - 200 OK (1ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:46 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:46 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:46 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:46 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:46 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:46 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:46 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:19:46 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:19:46 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-11-22 01:19:52 -0600
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"beI7kb+rrtcdlrMdxvUouYZdicSTRWn10Qb8pfrmb20=", "user"=>{"email"=>"qq", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" 
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" [0m
+Completed 500 Internal Server Error in 173ms
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+  app/controllers/users_controller.rb:9:in `create'
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-22 01:20:10 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Rendered shared/_login.html.erb (1.2ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:10 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:10 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:10 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:10 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:10 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:10 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:10 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:10 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:10 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:10 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:20:11 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-11-22 01:20:12 -0600
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (80.9ms)
+Rendered shared/_login.html.erb (1.3ms)
+Completed 200 OK in 104ms (Views: 99.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:12 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:12 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:12 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:12 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:12 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:12 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:12 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:12 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:12 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:20:12 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-11-22 01:20:18 -0600
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"beI7kb+rrtcdlrMdxvUouYZdicSTRWn10Qb8pfrmb20=", "user"=>{"email"=>"tt", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" 
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "users" [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "id", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", 2011-11-22 07:20:18 UTC], ["email", "tt"], ["id", 200], ["password_digest", "$2a$10$6WwduYYYl2ork0UWyN489e.HT2dfqZZzYoCWvrPsPIhjmT168JLb2"], ["updated_at", 2011-11-22 07:20:18 UTC]]
+PGError: ERROR:  duplicate key value violates unique constraint "users_pkey"
+: INSERT INTO "users" ("created_at", "email", "id", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Completed 500 Internal Server Error in 114ms
+
+ActiveRecord::RecordNotUnique (PGError: ERROR:  duplicate key value violates unique constraint "users_pkey"
+: INSERT INTO "users" ("created_at", "email", "id", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"):
+  app/controllers/users_controller.rb:10:in `create'
+
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /usr/local/rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-22 01:20:31 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.3ms)
+Rendered shared/_login.html.erb (1.5ms)
+Completed 200 OK in 90ms (Views: 88.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:31 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:31 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:31 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:31 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:31 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:31 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:31 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:31 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:31 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:20:31 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-11-22 01:20:33 -0600
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (27.9ms)
+Rendered shared/_login.html.erb (1.3ms)
+Completed 200 OK in 50ms (Views: 40.6ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:33 -0600
+Served asset /completed_quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:33 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:33 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:33 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:33 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:33 -0600
+Served asset /quests.css - 200 OK (6ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:33 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:33 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:33 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:33 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:20:33 -0600
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-11-22 01:20:45 -0600
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"beI7kb+rrtcdlrMdxvUouYZdicSTRWn10Qb8pfrmb20=", "user"=>{"email"=>"bb", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  [1m[35m (1.2ms)[0m  SELECT COUNT(*) FROM "users" 
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("created_at", "email", "id", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", 2011-11-22 07:20:45 UTC], ["email", "bb"], ["id", 201], ["password_digest", "$2a$10$q4arz2jYWYbQyVBOzIQsJ.P94IDolscFl7k04I/v9pU8w2f/a3Te2"], ["updated_at", 2011-11-22 07:20:45 UTC]]
+  [1m[36m (21.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 150ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-11-22 01:20:45 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Rendered shared/_login.html.erb (1.4ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:45 -0600
+Served asset /profiles.css - 200 OK (0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:45 -0600
+Served asset /completed_quests.css - 200 OK (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:45 -0600
+Served asset /home.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:45 -0600
+Served asset /quest_trees.css - 200 OK (0ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:45 -0600
+Served asset /quests.css - 200 OK (0ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:45 -0600
+Served asset /quest_masters.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:45 -0600
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:45 -0600
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-11-22 01:20:45 -0600
+Served asset /specialties.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-11-22 01:20:45 -0600
+Served asset /home.js - 304 Not Modified (1ms)
