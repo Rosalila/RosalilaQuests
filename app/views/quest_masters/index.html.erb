@@ -12,8 +12,8 @@
 
 <% @quest_masters.each do |quest_master| %>
   <tr>
-    <td><%= quest_master.profile_id %></td>
-    <td><%= quest_master.speciality_id %></td>
+    <td><%= link_to Profile.find_by_id(quest_master.profile_id).nick , quest_master%></td>
+    <td><img src="<%=Specialty.find_by_id(quest_master.speciality_id).picture%>" /></td>
     <td><%= quest_master.level %></td>
     <td><%= link_to 'Show', quest_master %></td>
     <td><%= link_to 'Edit', edit_quest_master_path(quest_master) %></td>
