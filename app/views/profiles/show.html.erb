@@ -1,8 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Users:</b>
-  <%= @profile.users_id %>
+  <img src="<%= @profile.picture %>" />
 </p>
 
 <p>
@@ -15,11 +14,7 @@
   <%= @profile.nick %>
 </p>
 
-<p>
-  <b>Picture:</b>
-  <%= @profile.picture %>
-</p>
-
-
-<%= link_to 'Edit', edit_profile_path(@profile) %> |
-<%= link_to 'Back', profiles_path %>
+<%if current_user.id==@profile.users_id %>
+  <%= link_to 'Edit', edit_profile_path(@profile) %> |
+  <%= link_to 'Back', profiles_path %>
+<%end%>

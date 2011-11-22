@@ -42,7 +42,11 @@ class ProfilesController < ApplicationController
   def create
     #@profile = Profile.new(params[:profile])
     @profile = Profile.new(params[:profile].merge(:users_id => current_user.id))
-    @profile.id=Profile.all[Profile.count-1].id+1
+    if Profile.count==0
+      @profile.id=1
+    else
+      @profile.id=Profile.all[Profile.count-1].id+1
+    end
     respond_to do |format|
       if @profile.save
         format.html { redirect_to @profile, notice: 'Profile was successfully created.' }
