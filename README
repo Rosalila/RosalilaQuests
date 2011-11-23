@@ -1,3 +1,4 @@
+
 rails generate scaffold Quest creator_id:integer speciality_id:integer level:integer name:string description:text experience:integer kelo_description:text kelo_experience:integer
 
 rails generate scaffold CompletedQuest quest_id:integer reviewer_id:integer profile_id:integer experience_won:integer kelo_won:integer comment:text
