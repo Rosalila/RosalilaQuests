@@ -14,7 +14,6 @@
   <div class="field">
     <%= f.label :creator_id %><br />
     <%= f.number_field :creator_id %>
-<%= collection_select(:afsd, :id, Profile.all, :id, :nick, options ={:prompt => "-Select a payment"}, :class =>"profile") %>
   </div>
   <div class="field">
     <%= f.label :speciality_id %><br />

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111114024629) do
+ActiveRecord::Schema.define(:version => 20111123161303) do
 
   create_table "completed_quests", :force => true do |t|
     t.integer  "quest_id"
@@ -24,13 +24,14 @@ ActiveRecord::Schema.define(:version => 20111114024629) do
     t.datetime "updated_at"
   end
 
-  create_table "profiles", :force => true do |t|
-    t.integer  "users_id"
-    t.string   "real_name"
-    t.string   "nick"
-    t.string   "picture"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "profiles", :id => false, :force => true do |t|
+    t.integer "id",         :null => false
+    t.integer "users_id"
+    t.string  "real_name"
+    t.string  "nick"
+    t.string  "picture"
+    t.date    "created_at"
+    t.date    "updated_at"
   end
 
   add_index "profiles", ["users_id"], :name => "index_profiles_on_users_id"
@@ -63,19 +64,21 @@ ActiveRecord::Schema.define(:version => 20111114024629) do
     t.datetime "updated_at"
   end
 
-  create_table "specialties", :force => true do |t|
-    t.string   "name"
-    t.string   "description"
-    t.string   "picture"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "specialties", :id => false, :force => true do |t|
+    t.integer "id",          :null => false
+    t.string  "name"
+    t.string  "description"
+    t.string  "picture"
+    t.date    "created_at"
+    t.date    "updated_at"
   end
 
-  create_table "users", :force => true do |t|
-    t.string   "email"
-    t.string   "password_digest"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "users", :id => false, :force => true do |t|
+    t.integer "id",              :null => false
+    t.string  "email"
+    t.string  "password_digest"
+    t.date    "created_at"
+    t.date    "updated_at"
   end
 
 end

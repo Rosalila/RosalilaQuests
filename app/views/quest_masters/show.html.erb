@@ -2,18 +2,12 @@
 
 <p>
   <b>Profile:</b>
-  <br/>
-  <img src="<%=Profile.find_by_id(@quest_master.profile_id).picture%>" />
-  <br/>
-  <%=Profile.find_by_id(@quest_master.profile_id).nick%>
+  <%= @quest_master.profile_id %>
 </p>
 
 <p>
   <b>Speciality:</b>
-  <br/>
-  <img src="<%=Specialty.find_by_id(@quest_master.speciality_id).picture%>" />
-  <br/>
-  <%=Specialty.find_by_id(@quest_master.speciality_id).name%>
+  <%= @quest_master.speciality_id %>
 </p>
 
 <p>

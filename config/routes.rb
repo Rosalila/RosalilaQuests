@@ -1,11 +1,11 @@
 Taller::Application.routes.draw do
-  resources :quest_masters
-
   resources :quest_trees
 
-  resources :completed_quests
-
   resources :quests
+
+  resources :quest_masters
+
+  resources :completed_quests
 
   resources :specialties
 

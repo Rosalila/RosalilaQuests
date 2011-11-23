@@ -41,7 +41,7 @@ class QuestsController < ApplicationController
   # POST /quests.json
   def create
     @quest = Quest.new(params[:quest])
-    @quest.creator_id=User.find(session[:user_id]).id;
+
     respond_to do |format|
       if @quest.save
         format.html { redirect_to @quest, notice: 'Quest was successfully created.' }
