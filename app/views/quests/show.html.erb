@@ -2,12 +2,12 @@
 
 <p>
   <b>Creator:</b>
-  <%= @quest.creator_id %>
+  <%= Profile.find_by_id(@quest.creator_id).nick %>
 </p>
 
 <p>
   <b>Speciality:</b>
-  <%= @quest.speciality_id %>
+  <%= Specialty.find_by_id(@quest.speciality_id).name %>
 </p>
 
 <p>

@@ -12,12 +12,8 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :creator_id %><br />
-    <%= f.number_field :creator_id %>
-  </div>
-  <div class="field">
     <%= f.label :speciality_id %><br />
-    <%= f.number_field :speciality_id %>
+    <%= f.collection_select :speciality_id, Specialty.all, :id, :name %>
   </div>
   <div class="field">
     <%= f.label :level %><br />
