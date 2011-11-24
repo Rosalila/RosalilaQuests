@@ -41,15 +41,18 @@ class QuestMastersController < ApplicationController
   # POST /quest_masters.json
   def create
     @quest_master = QuestMaster.new(params[:quest_master])
-
-    respond_to do |format|
-      if @quest_master.save
-        format.html { redirect_to @quest_master, notice: 'Quest master was successfully created.' }
-        format.json { render json: @quest_master, status: :created, location: @quest_master }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @quest_master.errors, status: :unprocessable_entity }
+    if iAmCoordinator
+      respond_to do |format|
+        if @quest_master.save
+          format.html { redirect_to @quest_master, notice: 'Quest master was successfully created.' }
+          format.json { render json: @quest_master, status: :created, location: @quest_master }
+        else
+          format.html { render action: "new" }
+          format.json { render json: @quest_master.errors, status: :unprocessable_entity }
+        end
       end
+    else
+      redirect_to "/", notice: 'No no no picarin!'
     end
   end
 
@@ -57,15 +60,18 @@ class QuestMastersController < ApplicationController
   # PUT /quest_masters/1.json
   def update
     @quest_master = QuestMaster.find(params[:id])
-
-    respond_to do |format|
-      if @quest_master.update_attributes(params[:quest_master])
-        format.html { redirect_to @quest_master, notice: 'Quest master was successfully updated.' }
-        format.json { head :ok }
-      else
-        format.html { render action: "edit" }
-        format.json { render json: @quest_master.errors, status: :unprocessable_entity }
+    if iAmCoordinator
+      respond_to do |format|
+        if @quest_master.update_attributes(params[:quest_master])
+          format.html { redirect_to @quest_master, notice: 'Quest master was successfully updated.' }
+          format.json { head :ok }
+        else
+          format.html { render action: "edit" }
+          format.json { render json: @quest_master.errors, status: :unprocessable_entity }
+        end
       end
+    else
+      redirect_to "/", notice: 'No no no picarin!'
     end
   end
 
@@ -73,11 +79,15 @@ class QuestMastersController < ApplicationController
   # DELETE /quest_masters/1.json
   def destroy
     @quest_master = QuestMaster.find(params[:id])
-    @quest_master.destroy
+    if iAmCoordinator
+      @quest_master.destroy
 
-    respond_to do |format|
-      format.html { redirect_to quest_masters_url }
-      format.json { head :ok }
+      respond_to do |format|
+        format.html { redirect_to quest_masters_url }
+        format.json { head :ok }
+      end
+    else
+      redirect_to "/", notice: 'No no no picarin!'
     end
   end
 end

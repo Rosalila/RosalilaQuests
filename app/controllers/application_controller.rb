@@ -33,4 +33,7 @@ class ApplicationController < ActionController::Base
     return qms[0].level
   end
  
+  def iAmCoordinator
+    return current_user.id==1
+  end
 end
