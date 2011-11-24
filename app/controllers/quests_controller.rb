@@ -42,10 +42,8 @@ class QuestsController < ApplicationController
   def create
     @quest = Quest.new(params[:quest])
     @quest.creator_id=Profile.where(:users_id=>current_user.id)[0].id
-    qms=QuestMaster.where(:profile_id=>@quest.creator_id)
-    qms=qms.where(:speciality_id=>@quest.speciality_id)
-    if qms[0]!=nil
-      if @quest.level<qms.where(:profile_id=>@quest.creator_id)[0].level #verificar nivel
+    if iAmQuestMaster @quest.speciality_id
+      if (getMyQuestMasterLevel (@quest.speciality_id))>(@quest.level)
         respond_to do |format|
           if @quest.save
             format.html { redirect_to @quest, notice: 'Quest was successfully created.' }
@@ -67,15 +65,22 @@ class QuestsController < ApplicationController
   # PUT /quests/1.json
   def update
     @quest = Quest.find(params[:id])
-
-    respond_to do |format|
-      if @quest.update_attributes(params[:quest])
-        format.html { redirect_to @quest, notice: 'Quest was successfully updated.' }
-        format.json { head :ok }
+    if iAmQuestMaster @quest.speciality_id
+      if (getMyQuestMasterLevel (@quest.speciality_id))>(@quest.level)
+        respond_to do |format|
+          if @quest.update_attributes(params[:quest])
+            format.html { redirect_to @quest, notice: 'Quest was successfully updated.' }
+            format.json { head :ok }
+          else
+            format.html { render action: "edit" }
+            format.json { render json: @quest.errors, status: :unprocessable_entity }
+          end
+        end
       else
-        format.html { render action: "edit" }
-        format.json { render json: @quest.errors, status: :unprocessable_entity }
+        redirect_to "/", notice: 'No tienes el nivel suficiente para editar esta quest!'
       end
+    else
+      redirect_to "/", notice: 'No tienes la especialdidad necesaria para editar esta quest!'
     end
   end
 
@@ -83,11 +88,18 @@ class QuestsController < ApplicationController
   # DELETE /quests/1.json
   def destroy
     @quest = Quest.find(params[:id])
-    @quest.destroy
-
-    respond_to do |format|
-      format.html { redirect_to quests_url }
-      format.json { head :ok }
+    if iAmQuestMaster @quest.speciality_id
+      if (getMyQuestMasterLevel (@quest.speciality_id))>(@quest.level)
+        @quest.destroy
+        respond_to do |format|
+          format.html { redirect_to quests_url }
+          format.json { head :ok }
+        end
+      else
+        redirect_to "/", notice: 'No tienes el nivel suficiente para destruir esta quest!'
+      end
+    else
+      redirect_to "/", notice: 'No tienes la especialdidad necesaria para destruir esta quest!'
     end
   end
 end

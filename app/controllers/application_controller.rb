@@ -17,5 +17,20 @@ class ApplicationController < ActionController::Base
   end
   
   
+  def iAmQuestMaster speciality_id
+    qms=QuestMaster.where(:profile_id=>Profile.where(:users_id=>current_user.id)[0].id)
+    qms=qms.where(:speciality_id=>speciality_id)
+    if qms[0]==nil
+      return false
+    else
+      return true
+    end
+  end
+
+  def getMyQuestMasterLevel speciality_id
+    qms=QuestMaster.where(:profile_id=>Profile.where(:users_id=>current_user.id)[0].id)
+    qms=qms.where(:speciality_id=>speciality_id)
+    return qms[0].level
+  end
  
 end
