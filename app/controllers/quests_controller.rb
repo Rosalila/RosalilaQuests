@@ -42,14 +42,24 @@ class QuestsController < ApplicationController
   def create
     @quest = Quest.new(params[:quest])
     @quest.creator_id=Profile.where(:users_id=>current_user.id)[0].id
-    respond_to do |format|
-      if @quest.save
-        format.html { redirect_to @quest, notice: 'Quest was successfully created.' }
-        format.json { render json: @quest, status: :created, location: @quest }
+    qms=QuestMaster.where(:profile_id=>@quest.creator_id)
+    qms=qms.where(:speciality_id=>@quest.speciality_id)
+    if qms[0]!=nil
+      if @quest.level<qms.where(:profile_id=>@quest.creator_id)[0].level #verificar nivel
+        respond_to do |format|
+          if @quest.save
+            format.html { redirect_to @quest, notice: 'Quest was successfully created.' }
+            format.json { render json: @quest, status: :created, location: @quest }
+          else
+            format.html { render action: "new" }
+            format.json { render json: @quest.errors, status: :unprocessable_entity }
+          end
+        end
       else
-        format.html { render action: "new" }
-        format.json { render json: @quest.errors, status: :unprocessable_entity }
+        redirect_to "/", notice: 'No tienes el nivel suficiente para crear esta quest!'
       end
+    else
+      redirect_to "/", notice: 'No tienes la especialdidad necesaria para crear esta quest!'
     end
   end
 
