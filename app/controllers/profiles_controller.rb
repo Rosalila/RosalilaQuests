@@ -45,7 +45,7 @@ class ProfilesController < ApplicationController
     if Profile.count==0
       @profile.id=1
     else
-      @profile.id=Profile.all[Profile.count-1].id+1
+      @profile.id=Profile.last.id+1
     end
     respond_to do |format|
       if @profile.save
