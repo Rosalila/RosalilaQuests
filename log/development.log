@@ -27398,3 +27398,483 @@ Served asset /users.js - 304 Not Modified (1ms)
 
 Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2011-11-24 15:59:32 -0600
 Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-13 19:58:32 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (65.2ms)
+Rendered shared/_login.html.erb (5.3ms)
+Completed 200 OK in 623ms (Views: 621.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-13 19:58:38 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (5.7ms)
+Rendered shared/_login.html.erb (3.2ms)
+Completed 200 OK in 70ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-13 19:58:38 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (5.3ms)
+Rendered shared/_login.html.erb (4.5ms)
+Completed 200 OK in 78ms (Views: 76.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /completed_quests.css - 200 OK (24ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /profiles.css - 200 OK (38ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /quest_trees.css - 200 OK (10ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /quest_masters.css - 200 OK (10ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /home.css - 200 OK (10ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /quests.css - 200 OK (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /scaffolds.css - 200 OK (88ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /secret.css - 200 OK (14ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /sessions.css - 200 OK (12ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /specialties.css - 200 OK (10ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /users.css - 200 OK (28ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /jquery.js - 200 OK (29ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /jquery_ujs.js - 200 OK (23ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /home.js - 200 OK (14ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /completed_quests.js - 200 OK (13ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /profiles.js - 200 OK (12ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /quest_masters.js - 200 OK (14ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /quest_trees.js - 200 OK (17ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /quests.js - 200 OK (23ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /sessions.js - 200 OK (10ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2011-12-13 19:58:39 -0600
+Served asset /specialties.js - 200 OK (14ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-12-13 19:58:40 -0600
+Served asset /users.js - 200 OK (12ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-12-13 19:58:48 -0600
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tGSoib1PHNHz8MrOFwVIDIhGQQvDufW4HD2yRF365EY=", "email"=>"antares_43@hotmail.com", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[36mUser Load (17.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'antares_43@hotmail.com' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 1211ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-13 19:58:49 -0600
+  Processing by SessionsController#new as HTML
+  [1m[35mUser Load (102.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (13.6ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mQuestMaster Load (2.6ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3
+Rendered sessions/new.html.erb within layouts/application (315.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+Rendered shared/_login.html.erb (6.0ms)
+Completed 200 OK in 482ms (Views: 307.2ms | ActiveRecord: 173.5ms)
+
+
+Started GET "/profiles" for 127.0.0.1 at 2011-12-13 19:58:53 -0600
+  Processing by ProfilesController#index as HTML
+  [1m[35mProfile Load (1.4ms)[0m  SELECT "profiles".* FROM "profiles" 
+Rendered profiles/index.html.erb within layouts/application (108.6ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Rendered shared/_login.html.erb (152.3ms)
+Completed 200 OK in 359ms (Views: 327.3ms | ActiveRecord: 21.4ms)
+
+
+Started DELETE "/sessions/current" for 127.0.0.1 at 2011-12-13 19:59:11 -0600
+  Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"tGSoib1PHNHz8MrOFwVIDIhGQQvDufW4HD2yRF365EY=", "id"=>"current"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-13 19:59:11 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (5.0ms)
+Rendered shared/_login.html.erb (3.1ms)
+Completed 200 OK in 66ms (Views: 64.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-12-13 19:59:15 -0600
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (39.5ms)
+Rendered shared/_login.html.erb (3.2ms)
+Completed 200 OK in 99ms (Views: 91.3ms | ActiveRecord: 5.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-12-13 19:59:27 -0600
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tGSoib1PHNHz8MrOFwVIDIhGQQvDufW4HD2yRF365EY=", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "users" 
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" 
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "users" ("created_at", "email", "id", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", 2011-12-14 01:59:28 UTC], ["email", "test@test.com"], ["id", 22], ["password_digest", "$2a$10$j3qjFm4aKLyTr3anb4OXROp1R9OVpe6I7gl/AOC336LT7XIaYPzU2"], ["updated_at", 2011-12-14 01:59:28 UTC]]
+  [1m[36m (34.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 348ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-13 19:59:28 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (5.3ms)
+Rendered shared/_login.html.erb (3.2ms)
+Completed 200 OK in 64ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-12-13 19:59:35 -0600
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tGSoib1PHNHz8MrOFwVIDIhGQQvDufW4HD2yRF365EY=", "email"=>"test@test.com", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 300ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-13 19:59:35 -0600
+  Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mProfile Load (0.9ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 22[0m
+Rendered sessions/new.html.erb within layouts/application (177.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+Rendered shared/_login.html.erb (4.7ms)
+Completed 200 OK in 241ms (Views: 225.9ms | ActiveRecord: 13.6ms)
+
+
+Started GET "/profiles/new" for 127.0.0.1 at 2011-12-13 19:59:38 -0600
+  Processing by ProfilesController#new as HTML
+Rendered profiles/_form.html.erb (47.5ms)
+Rendered profiles/new.html.erb within layouts/application (52.9ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 22]]
+Rendered shared/_login.html.erb (154.9ms)
+Completed 200 OK in 272ms (Views: 252.7ms | ActiveRecord: 16.6ms)
+
+
+Started POST "/profiles" for 127.0.0.1 at 2011-12-13 20:00:46 -0600
+  Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tGSoib1PHNHz8MrOFwVIDIhGQQvDufW4HD2yRF365EY=", "profile"=>{"real_name"=>"test", "nick"=>"testt", "picture"=>"http://es.xkcd.com/site_media/strips/turing_test.png"}, "commit"=>"Create Profile"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "profiles" [0m
+  [1m[35mProfile Load (1.0ms)[0m  SELECT "profiles".* FROM "profiles" 
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "profiles" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (12.9ms)[0m  [1mINSERT INTO "profiles" ("created_at", "id", "nick", "picture", "real_name", "updated_at", "users_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["created_at", 2011-12-14 02:00:46 UTC], ["id", 22], ["nick", "testt"], ["picture", "http://es.xkcd.com/site_media/strips/turing_test.png"], ["real_name", "test"], ["updated_at", 2011-12-14 02:00:46 UTC], ["users_id", 22]]
+  [1m[35m (26.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/profiles/22
+Completed 302 Found in 173ms
+
+
+Started GET "/profiles/22" for 127.0.0.1 at 2011-12-13 20:00:46 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mProfile Load (1.4ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", "22"]]
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 22]]
+Rendered profiles/show.html.erb within layouts/application (197.1ms)
+Rendered shared/_login.html.erb (3.9ms)
+Completed 200 OK in 277ms (Views: 252.7ms | ActiveRecord: 17.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-14 10:58:46 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (67.6ms)
+Rendered shared/_login.html.erb (5.9ms)
+Completed 200 OK in 1278ms (Views: 1276.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-12-14 10:59:06 -0600
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+gKz3deySFmqMkqAYDVZOB7WOD27w93L6du7p4rf59k=", "email"=>"test@test.com", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[36mUser Load (2.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1[0m
+Rendered sessions/new.html.erb within layouts/application (5.3ms)
+Rendered shared/_login.html.erb (3.2ms)
+Completed 200 OK in 927ms (Views: 69.0ms | ActiveRecord: 109.5ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-12-14 10:59:12 -0600
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+gKz3deySFmqMkqAYDVZOB7WOD27w93L6du7p4rf59k=", "email"=>"test@test.com", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Rendered sessions/new.html.erb within layouts/application (5.1ms)
+Rendered shared/_login.html.erb (3.1ms)
+Completed 200 OK in 110ms (Views: 67.3ms | ActiveRecord: 5.7ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-12-14 10:59:19 -0600
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+gKz3deySFmqMkqAYDVZOB7WOD27w93L6du7p4rf59k=", "email"=>"antares_43@hotmail.com", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'antares_43@hotmail.com' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 458ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-14 10:59:19 -0600
+  Processing by SessionsController#new as HTML
+  [1m[35mUser Load (77.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (1.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mQuestMaster Load (1.8ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3
+Rendered sessions/new.html.erb within layouts/application (348.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+Rendered shared/_login.html.erb (4.9ms)
+Completed 200 OK in 414ms (Views: 289.9ms | ActiveRecord: 123.0ms)
+
+
+Started DELETE "/sessions/current" for 127.0.0.1 at 2011-12-14 10:59:24 -0600
+  Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+gKz3deySFmqMkqAYDVZOB7WOD27w93L6du7p4rf59k=", "id"=>"current"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-14 10:59:25 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (5.1ms)
+Rendered shared/_login.html.erb (3.3ms)
+Completed 200 OK in 73ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2011-12-14 10:59:33 -0600
+  Processing by UsersController#new as HTML
+Rendered users/new.html.erb within layouts/application (51.1ms)
+Rendered shared/_login.html.erb (3.2ms)
+Completed 200 OK in 138ms (Views: 127.6ms | ActiveRecord: 7.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2011-12-14 10:59:43 -0600
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+gKz3deySFmqMkqAYDVZOB7WOD27w93L6du7p4rf59k=", "user"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "users" 
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "users" 
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.4ms)[0m  INSERT INTO "users" ("created_at", "email", "id", "password_digest", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", 2011-12-14 16:59:43 UTC], ["email", "test@test.com"], ["id", 28], ["password_digest", "$2a$10$nFOJuC7m8DlTUOT.QL10Temfb35v037wMAWwz3quSG7mJ0oCYalSm"], ["updated_at", 2011-12-14 16:59:43 UTC]]
+  [1m[36m (7.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 305ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-14 10:59:44 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (5.0ms)
+Rendered shared/_login.html.erb (3.1ms)
+Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2011-12-14 10:59:50 -0600
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+gKz3deySFmqMkqAYDVZOB7WOD27w93L6du7p4rf59k=", "email"=>"test@test.com", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'test@test.com' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 302ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-14 10:59:51 -0600
+  Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 28]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mProfile Load (0.9ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 28[0m
+Rendered sessions/new.html.erb within layouts/application (93.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+Rendered shared/_login.html.erb (4.6ms)
+Completed 200 OK in 155ms (Views: 138.6ms | ActiveRecord: 14.1ms)
+
+
+Started GET "/profiles/new" for 127.0.0.1 at 2011-12-14 10:59:53 -0600
+  Processing by ProfilesController#new as HTML
+Rendered profiles/_form.html.erb (57.3ms)
+Rendered profiles/new.html.erb within layouts/application (64.1ms)
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 28]]
+Rendered shared/_login.html.erb (163.5ms)
+Completed 200 OK in 292ms (Views: 271.4ms | ActiveRecord: 17.5ms)
+
+
+Started POST "/profiles" for 127.0.0.1 at 2011-12-14 11:00:05 -0600
+  Processing by ProfilesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+gKz3deySFmqMkqAYDVZOB7WOD27w93L6du7p4rf59k=", "profile"=>{"real_name"=>"testt", "nick"=>"testtt", "picture"=>"test"}, "commit"=>"Create Profile"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 28]]
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "profiles" [0m
+  [1m[35mProfile Load (1.1ms)[0m  SELECT "profiles".* FROM "profiles" 
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "profiles" [0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.9ms)[0m  [1mINSERT INTO "profiles" ("created_at", "id", "nick", "picture", "real_name", "updated_at", "users_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["created_at", 2011-12-14 17:00:05 UTC], ["id", 24], ["nick", "testtt"], ["picture", "test"], ["real_name", "testt"], ["updated_at", 2011-12-14 17:00:05 UTC], ["users_id", 28]]
+  [1m[35m (17.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/profiles/24
+Completed 302 Found in 148ms
+
+
+Started GET "/profiles/24" for 127.0.0.1 at 2011-12-14 11:00:05 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"24"}
+  [1m[36mProfile Load (1.4ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", "24"]]
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 28]]
+Rendered profiles/show.html.erb within layouts/application (94.3ms)
+Rendered shared/_login.html.erb (2.4ms)
+Completed 200 OK in 247ms (Views: 223.9ms | ActiveRecord: 16.6ms)
+
+
+Started GET "/profiles/test" for 127.0.0.1 at 2011-12-14 11:00:06 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"test"}
+  [1m[36mProfile Load (0.8ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", "test"]]
+Completed 404 Not Found in 16ms
+
+ActiveRecord::RecordNotFound (Couldn't find Profile with id=test):
+  app/controllers/profiles_controller.rb:16:in `show'
+
+Rendered /home/userr/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.5ms)
+Rendered /home/userr/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /home/userr/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-14 11:00:16 -0600
+  Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 28]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 28
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 28
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 28[0m
+  [1m[35mQuestMaster Load (0.8ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 24
+Rendered sessions/new.html.erb within layouts/application (153.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+Rendered shared/_login.html.erb (5.1ms)
+Completed 200 OK in 214ms (Views: 188.8ms | ActiveRecord: 23.8ms)
+
+
+Started GET "/quests" for 127.0.0.1 at 2011-12-14 11:00:18 -0600
+  Processing by QuestsController#index as HTML
+  [1m[35mQuest Load (11.2ms)[0m  SELECT "quests".* FROM "quests" 
+  [1m[36mSpecialty Load (1.4ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 1 LIMIT 1
+  [1m[36mSpecialty Load (1.0ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 2 LIMIT 1
+  [1m[36mSpecialty Load (1.0ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 5 LIMIT 1
+  [1m[36mSpecialty Load (1.0ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 3 LIMIT 1[0m
+  [1m[35mSpecialty Load (0.9ms)[0m  SELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 4 LIMIT 1
+Rendered quests/index.html.erb within layouts/application (209.6ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 28]]
+Rendered shared/_login.html.erb (67.8ms)
+Completed 200 OK in 369ms (Views: 317.2ms | ActiveRecord: 45.2ms)
+
+
+Started GET "/quests" for 127.0.0.1 at 2011-12-14 11:00:19 -0600
+  Processing by QuestsController#index as HTML
+  [1m[35mQuest Load (1.0ms)[0m  SELECT "quests".* FROM "quests" 
+  [1m[36mSpecialty Load (0.9ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 1 LIMIT 1
+  [1m[36mSpecialty Load (0.9ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 2 LIMIT 1
+  [1m[36mSpecialty Load (1.0ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 5 LIMIT 1
+  [1m[36mSpecialty Load (1.0ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 3 LIMIT 1[0m
+  [1m[35mSpecialty Load (1.0ms)[0m  SELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 4 LIMIT 1
+Rendered quests/index.html.erb within layouts/application (178.8ms)
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 28]]
+Rendered shared/_login.html.erb (151.4ms)
+Completed 200 OK in 401ms (Views: 366.2ms | ActiveRecord: 28.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-14 11:00:22 -0600
+  Processing by SessionsController#new as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 28]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 28
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 28
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 28[0m
+  [1m[35mQuestMaster Load (0.8ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 24
+Rendered sessions/new.html.erb within layouts/application (242.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+Rendered shared/_login.html.erb (5.0ms)
+Completed 200 OK in 306ms (Views: 278.3ms | ActiveRecord: 26.2ms)
+
+
+Started GET "/profiles" for 127.0.0.1 at 2011-12-14 11:00:23 -0600
+  Processing by ProfilesController#index as HTML
+  [1m[35mProfile Load (1.4ms)[0m  SELECT "profiles".* FROM "profiles" 
+Rendered profiles/index.html.erb within layouts/application (96.7ms)
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 28]]
+Rendered shared/_login.html.erb (152.9ms)
+Completed 200 OK in 341ms (Views: 310.8ms | ActiveRecord: 21.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2011-12-14 11:00:24 -0600
+
+ActionController::RoutingError (No route matches [GET] "/test"):
+  
+
+Rendered /home/userr/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/profiles/23" for 127.0.0.1 at 2011-12-14 11:00:30 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"23"}
+  [1m[35mProfile Load (2.3ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1  [["id", "23"]]
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 28]]
+Rendered profiles/show.html.erb within layouts/application (94.7ms)
+Rendered shared/_login.html.erb (3.0ms)
+Completed 200 OK in 179ms (Views: 147.4ms | ActiveRecord: 25.3ms)
