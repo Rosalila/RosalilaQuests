@@ -15,9 +15,9 @@
 
 <% @completed_quests.each do |completed_quest| %>
   <tr>
-    <td><%= completed_quest.quest_id %></td>
-    <td><%= completed_quest.reviewer_id %></td>
-    <td><%= completed_quest.profile_id %></td>
+    <td><%= Quest.find(completed_quest.quest_id).name %></td>
+    <td><%= Profile.find(completed_quest.reviewer_id).nick %></td>
+    <td><%= Profile.find(completed_quest.profile_id).nick %></td>
     <td><%= completed_quest.experience_won %></td>
     <td><%= completed_quest.kelo_won %></td>
     <td><%= completed_quest.comment %></td>

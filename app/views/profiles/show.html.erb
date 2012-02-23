@@ -14,6 +14,39 @@
   <%= @profile.nick %>
 </p>
 
+<p>
+  <b>Completed quests:</b>
+  <%=
+    CompletedQuest.where(:profile_id=>Profile.where(:id=>@profile.id)[0].id).count
+  %>
+</p>
+<p>
+  <b>Experience:</b>
+  <%
+    arr=CompletedQuest.where(:profile_id=>Profile.where(:id=>@profile.id)[0].id)
+    res=0
+    i=0
+    while (i < arr.size)
+      res+=arr[i].experience_won
+      i +=1
+    end  
+  %>
+  <%=res  %>
+</p>
+<p>
+  <b>Kelo:</b>
+  <%
+    arr=CompletedQuest.where(:profile_id=>Profile.where(:id=>@profile.id)[0].id)
+    res=0
+    i=0
+    while (i < arr.size)
+      res+=arr[i].kelo_won
+      i +=1
+    end  
+  %>
+  <%=res  %>
+</p>
+
 <%if current_user.id==@profile.users_id %>
   <%= link_to 'Edit', edit_profile_path(@profile) %> |
   <%= link_to 'Back', profiles_path %>

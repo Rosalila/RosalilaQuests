@@ -41,6 +41,7 @@ class CompletedQuestsController < ApplicationController
   # POST /completed_quests.json
   def create
     @completed_quest = CompletedQuest.new(params[:completed_quest])
+    @completed_quest.reviewer_id=Profile.where(:users_id=>current_user.id)[0].id
 
     respond_to do |format|
       if @completed_quest.save

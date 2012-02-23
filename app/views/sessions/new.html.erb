@@ -2,38 +2,6 @@
 
 <p id="notice"><%= notice %></p>
 
-<%
-if session[:user_id] != nil
-  User.find(session[:user_id]).email;
 
-if Profile.where(:users_id=>User.find(session[:user_id]).id)[0]!=nil
-%>
-<%=  link_to 'Mi perfil', Profile.where(:users_id=>User.find(session[:user_id]).id)[0] %>
-<%=  link_to 'Ver otros perfiles', "profiles" %>
-
-<% if QuestMaster.where(:profile_id=>Profile.where(:users_id=>session[:user_id])[0])[0]!=nil %>
-<%=  link_to 'Crea nuevas quests', "quests/new" %>
-<% end%>
-<%=  link_to 'Ver quests', "quests" %>
-<%
-else
-%>
-<%= link_to 'Crea tu perfil', new_profile_path %>
-<%end%>
-
-<%else%>
-<h1>Log in</h1>   
-<%= form_tag sessions_path do %>   
-  <div class="field">   
-    <%= label_tag :email %>   
-    <%= text_field_tag :email, params[:email] %>   
-  </div>   
-  <div class="field">   
-    <%= label_tag :password %>   
-    <%= password_field_tag :password %>   
-  </div>   
-  <div class="actions"><%= submit_tag "Log in" %></div>   
-<% end %> 
-<%end%>
 
  
