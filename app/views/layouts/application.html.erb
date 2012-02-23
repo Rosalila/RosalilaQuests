@@ -18,13 +18,13 @@ if session[:user_id] != nil
 if Profile.where(:users_id=>User.find(session[:user_id]).id)[0]!=nil
 %>
 <%=  link_to 'Mi perfil', Profile.where(:users_id=>User.find(session[:user_id]).id)[0] %>
-<%=  link_to 'Ver otros perfiles', "profiles" %>
+<%=  link_to 'Ver otros perfiles', "/profiles" %>
 
 <% if QuestMaster.where(:profile_id=>Profile.where(:users_id=>session[:user_id])[0])[0]!=nil %>
-<%=  link_to 'Crea nuevas quests', "quests/new" %>
-<%=  link_to 'Completar quest', "completed_quests/new" %>
+<%=  link_to 'Crea nuevas quests', "/quests/new" %>
+<%=  link_to 'Completar quest', "/completed_quests/new" %>
 <% end%>
-<%=  link_to 'Ver quests', "quests" %>
+<%=  link_to 'Ver quests', "/quests" %>
 <%
 else
 %>
