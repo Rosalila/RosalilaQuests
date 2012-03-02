@@ -1,1 +1,2173 @@
 
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-23 20:41:51 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (60.7ms)
+Rendered shared/_login.html.erb (8.4ms)
+Completed 200 OK in 927ms (Views: 925.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /home.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /completed_quests.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /profiles.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /quest_trees.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /quests.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /quest_masters.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /scaffolds.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /secret.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /sessions.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /specialties.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /users.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /jquery.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /completed_quests.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /home.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /profiles.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /quest_masters.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /quest_trees.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /quests.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /sessions.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /specialties.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-23 20:41:56 -0600
+Served asset /users.js - 304 Not Modified (10ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-23 20:47:54 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (55.5ms)
+Rendered shared/_login.html.erb (5.6ms)
+Completed 200 OK in 611ms (Views: 609.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (0.4ms)
+Rendered shared/_login.html.erb (3.6ms)
+Completed 200 OK in 64ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /home.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /profiles.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /quests.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /completed_quests.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /quest_masters.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /scaffolds.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /quest_trees.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /secret.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /sessions.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /specialties.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /users.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /jquery.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /completed_quests.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /home.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /profiles.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /quest_masters.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /quest_trees.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /quests.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-23 20:47:59 -0600
+Served asset /sessions.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:00 -0600
+Served asset /specialties.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:00 -0600
+Served asset /users.js - 304 Not Modified (10ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-02-23 20:48:08 -0600
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+zUph2kKf55k6B4H8EVQ0Wk/GPj1rq381jXnH0sNPq0=", "email"=>"antares_43@hotmail.com", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[36mUser Load (2.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'antares_43@hotmail.com' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 880ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (90.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Rendered shared/_login.html.erb (233.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mProfile Load (2.2ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mQuestMaster Load (1.5ms)[0m  [1mSELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3[0m
+Completed 200 OK in 410ms (Views: 277.4ms | ActiveRecord: 130.8ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /completed_quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /profiles.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /quest_trees.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /quest_masters.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /quests.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /secret.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /specialties.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /completed_quests.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:09 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:10 -0600
+Served asset /profiles.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:10 -0600
+Served asset /quest_masters.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:10 -0600
+Served asset /quest_trees.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:10 -0600
+Served asset /quests.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:10 -0600
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:10 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:10 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/quests" for 127.0.0.1 at 2012-02-23 20:48:11 -0600
+  Processing by QuestsController#index as HTML
+  [1m[35mQuest Load (1.9ms)[0m  SELECT "quests".* FROM "quests" 
+  [1m[36mSpecialty Load (1.5ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 1 LIMIT 1
+  [1m[36mSpecialty Load (1.0ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 2 LIMIT 1
+  [1m[36mSpecialty Load (0.9ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 5 LIMIT 1
+  [1m[36mSpecialty Load (0.9ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 3 LIMIT 1[0m
+  [1m[35mSpecialty Load (0.9ms)[0m  SELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "specialties".* FROM "specialties" WHERE "specialties"."id" = 5 LIMIT 1[0m
+Rendered quests/index.html.erb within layouts/application (252.7ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Rendered shared/_login.html.erb (71.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mProfile Load (0.9ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mQuestMaster Load (0.9ms)[0m  [1mSELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3[0m
+Completed 200 OK in 580ms (Views: 525.6ms | ActiveRecord: 47.7ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /completed_quests.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /profiles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /quest_masters.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /quest_trees.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /quests.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /secret.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /specialties.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /completed_quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /profiles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /quest_masters.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /quest_trees.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-23 20:48:12 -0600
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-02 08:08:05 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (67.7ms)
+Rendered shared/_login.html.erb (7.3ms)
+Completed 200 OK in 1188ms (Views: 1186.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:08:11 -0600
+Served asset /completed_quests.css - 200 OK (100ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:08:11 -0600
+Served asset /home.css - 200 OK (42ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:08:11 -0600
+Served asset /profiles.css - 200 OK (15ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:08:11 -0600
+Served asset /quests.css - 200 OK (19ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:08:11 -0600
+Served asset /scaffolds.css - 200 OK (16ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:08:11 -0600
+Served asset /quest_masters.css - 200 OK (14ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:08:11 -0600
+Served asset /quest_trees.css - 200 OK (11ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:08:11 -0600
+Served asset /secret.css - 200 OK (23ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:08:11 -0600
+Served asset /sessions.css - 200 OK (10ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:08:11 -0600
+Served asset /specialties.css - 200 OK (10ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:08:11 -0600
+Served asset /users.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:08:12 -0600
+Served asset /jquery.js - 200 OK (41ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:08:12 -0600
+Served asset /jquery_ujs.js - 200 OK (18ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:08:12 -0600
+Served asset /completed_quests.js - 200 OK (13ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:08:12 -0600
+Served asset /home.js - 200 OK (8ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:08:12 -0600
+Served asset /profiles.js - 200 OK (13ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:08:12 -0600
+Served asset /quest_masters.js - 200 OK (27ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:08:12 -0600
+Served asset /quest_trees.js - 200 OK (15ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:08:12 -0600
+Served asset /quests.js - 200 OK (23ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:08:12 -0600
+Served asset /sessions.js - 200 OK (10ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:08:12 -0600
+Served asset /specialties.js - 200 OK (12ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:08:12 -0600
+Served asset /users.js - 200 OK (11ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-03-02 08:10:20 -0600
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TAx7vBWi969UQo9OQUGPLzWGOpFpbYJ9PUqNCqAYoCg=", "email"=>"antares_43@hotmail.com", "password"=>"[FILTERED]", "commit"=>"Log in"}
+  [1m[36mUser Load (18.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'antares_43@hotmail.com' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 1231ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-03-02 08:10:22 -0600
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (156.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Rendered shared/_login.html.erb (231.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mProfile Load (22.1ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mQuestMaster Load (2.6ms)[0m  [1mSELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3[0m
+Completed 200 OK in 462ms (Views: 224.6ms | ActiveRecord: 235.4ms)
+
+
+Started GET "/profiles/3" for 127.0.0.1 at 2012-03-02 08:10:41 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProfile Load (13.3ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1  [["id", "3"]]
+  [1m[36mProfile Load (1.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35m (2.4ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCompletedQuest Load (1.2ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+Rendered profiles/show.html.erb within layouts/application (328.2ms)
+Completed 500 Internal Server Error in 374ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::CompletedQuests):
+    62:     <th></th>
+    63:   </tr>
+    64: 
+    65: <% CompletedQuests.all do |completed_quest| %>
+    66:   <tr>
+    67:     <td><%= Quest.find(completed_quest.quest_id).name %></td>
+    68:     <td><%= Profile.find(completed_quest.reviewer_id).nick %></td>
+  app/views/profiles/show.html.erb:65:in `_app_views_profiles_show_html_erb___1201582649448773663_38203620'
+  app/controllers/profiles_controller.rb:18:in `show'
+
+Rendered /home/userr/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+Rendered /home/userr/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.0ms)
+Rendered /home/userr/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.5ms)
+
+
+Started GET "/profiles/3" for 127.0.0.1 at 2012-03-02 08:10:52 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProfile Load (0.7ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", "3"]]
+  [1m[35mProfile Load (1.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (0.9ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (0.8ms)[0m  SELECT "completed_quests".* FROM "completed_quests" 
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Rendered profiles/show.html.erb within layouts/application (175.4ms)
+Rendered shared/_login.html.erb (2.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (1.1ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mQuestMaster Load (0.9ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3
+Completed 200 OK in 286ms (Views: 244.8ms | ActiveRecord: 34.9ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:10:52 -0600
+Served asset /completed_quests.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:10:52 -0600
+Served asset /home.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:10:52 -0600
+Served asset /quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:10:52 -0600
+Served asset /quest_masters.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:10:52 -0600
+Served asset /quest_trees.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:10:52 -0600
+Served asset /profiles.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:10:52 -0600
+Served asset /scaffolds.css - 304 Not Modified (90ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /secret.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /specialties.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /completed_quests.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /profiles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /quest_masters.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /quest_trees.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:10:53 -0600
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/profiles/3" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProfile Load (0.7ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", "3"]]
+  [1m[35mProfile Load (1.1ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (1.0ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Rendered profiles/show.html.erb within layouts/application (266.0ms)
+Rendered shared/_login.html.erb (2.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mQuestMaster Load (1.0ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3
+Completed 200 OK in 383ms (Views: 340.1ms | ActiveRecord: 36.1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /quest_masters.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /profiles.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /completed_quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /quest_trees.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /secret.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /specialties.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /completed_quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:12 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:13 -0600
+Served asset /quest_masters.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:13 -0600
+Served asset /profiles.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:13 -0600
+Served asset /quests.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:13 -0600
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:13 -0600
+Served asset /specialties.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:13 -0600
+Served asset /quest_trees.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:13 -0600
+Served asset /sessions.js - 304 Not Modified (3ms)
+
+
+Started GET "/completed_quests/new" for 127.0.0.1 at 2012-03-02 08:13:20 -0600
+  Processing by CompletedQuestsController#new as HTML
+  [1m[36mQuest Load (13.3ms)[0m  [1mSELECT "quests".* FROM "quests" [0m
+  [1m[35mProfile Load (1.6ms)[0m  SELECT "profiles".* FROM "profiles" 
+Rendered completed_quests/_form.html.erb (322.7ms)
+Rendered completed_quests/new.html.erb within layouts/application (328.3ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Rendered shared/_login.html.erb (64.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mQuestMaster Load (0.9ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3
+Completed 200 OK in 490ms (Views: 423.1ms | ActiveRecord: 63.8ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /completed_quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /quest_trees.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /profiles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /quest_masters.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /secret.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /specialties.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /completed_quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:21 -0600
+Served asset /profiles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:22 -0600
+Served asset /quest_masters.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:22 -0600
+Served asset /quest_trees.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:22 -0600
+Served asset /quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:22 -0600
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:22 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:22 -0600
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started POST "/completed_quests" for 127.0.0.1 at 2012-03-02 08:13:30 -0600
+  Processing by CompletedQuestsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TAx7vBWi969UQo9OQUGPLzWGOpFpbYJ9PUqNCqAYoCg=", "completed_quest"=>{"quest_id"=>"1", "profile_id"=>"3", "experience_won"=>"10", "kelo_won"=>"10", "comment"=>"haha"}, "commit"=>"Create Completed quest"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProfile Load (1.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (71.3ms)[0m  INSERT INTO "completed_quests" ("comment", "created_at", "experience_won", "kelo_won", "profile_id", "quest_id", "reviewer_id", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"  [["comment", "haha"], ["created_at", Fri, 02 Mar 2012 14:13:31 UTC +00:00], ["experience_won", 10], ["kelo_won", 10], ["profile_id", 3], ["quest_id", 1], ["reviewer_id", 3], ["updated_at", Fri, 02 Mar 2012 14:13:31 UTC +00:00]]
+  [1m[36m (18.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/completed_quests/2
+Completed 302 Found in 286ms
+
+
+Started GET "/completed_quests/2" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+  Processing by CompletedQuestsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mCompletedQuest Load (1.5ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."id" = $1 LIMIT 1  [["id", "2"]]
+Rendered completed_quests/show.html.erb within layouts/application (42.1ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Rendered shared/_login.html.erb (70.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (1.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mQuestMaster Load (1.0ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3
+Completed 200 OK in 347ms (Views: 307.2ms | ActiveRecord: 33.5ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /completed_quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /profiles.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /scaffolds.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /quest_masters.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /quest_trees.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /quests.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /secret.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /specialties.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:31 -0600
+Served asset /profiles.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:32 -0600
+Served asset /completed_quests.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:32 -0600
+Served asset /quest_masters.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:32 -0600
+Served asset /quest_trees.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:32 -0600
+Served asset /quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:32 -0600
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:32 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:32 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/profiles/3" for 127.0.0.1 at 2012-03-02 08:13:34 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProfile Load (0.7ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", "3"]]
+  [1m[35mProfile Load (1.1ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (1.0ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Rendered profiles/show.html.erb within layouts/application (172.8ms)
+Rendered shared/_login.html.erb (2.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (1.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mQuestMaster Load (0.9ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3
+Completed 200 OK in 288ms (Views: 245.4ms | ActiveRecord: 35.6ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:34 -0600
+Served asset /completed_quests.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:34 -0600
+Served asset /quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:34 -0600
+Served asset /profiles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:34 -0600
+Served asset /quest_trees.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:34 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:34 -0600
+Served asset /quest_masters.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:34 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:34 -0600
+Served asset /secret.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:34 -0600
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:34 -0600
+Served asset /specialties.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:34 -0600
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:34 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:35 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:35 -0600
+Served asset /completed_quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:35 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:35 -0600
+Served asset /profiles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:35 -0600
+Served asset /quest_trees.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:35 -0600
+Served asset /quest_masters.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:35 -0600
+Served asset /quests.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:35 -0600
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:35 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:35 -0600
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/completed_quests/" for 127.0.0.1 at 2012-03-02 08:13:48 -0600
+  Processing by CompletedQuestsController#index as HTML
+  [1m[36mCompletedQuest Load (0.8ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" [0m
+  [1m[35mQuest Load (18.0ms)[0m  SELECT "quests".* FROM "quests" WHERE "quests"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mProfile Load (0.9ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mQuest Load (0.7ms)[0m  [1mSELECT "quests".* FROM "quests" WHERE "quests"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m
+Rendered completed_quests/index.html.erb within layouts/application (200.3ms)
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Rendered shared/_login.html.erb (69.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mProfile Load (1.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mQuestMaster Load (0.9ms)[0m  [1mSELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3[0m
+Completed 200 OK in 465ms (Views: 399.5ms | ActiveRecord: 59.6ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /completed_quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /home.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /profiles.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /quest_masters.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /quest_trees.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /quests.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /secret.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /specialties.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /completed_quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /profiles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /quest_masters.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /quest_trees.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:13:49 -0600
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/completed_quests/" for 127.0.0.1 at 2012-03-02 08:14:29 -0600
+  Processing by CompletedQuestsController#index as HTML
+  [1m[35mCompletedQuest Load (0.8ms)[0m  SELECT "completed_quests".* FROM "completed_quests" 
+  [1m[36mQuest Load (1.1ms)[0m  [1mSELECT "quests".* FROM "quests" WHERE "quests"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mProfile Load (0.7ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1  [["id", 22]]
+  [1m[36mProfile Load (0.8ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mQuest Load (0.7ms)[0m  SELECT "quests".* FROM "quests" WHERE "quests"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1
+Rendered completed_quests/index.html.erb within layouts/application (291.1ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Rendered shared/_login.html.erb (68.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mQuestMaster Load (0.9ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3
+Completed 200 OK in 466ms (Views: 416.6ms | ActiveRecord: 43.6ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /completed_quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /profiles.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /quest_masters.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /quest_trees.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /scaffolds.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /secret.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /specialties.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /completed_quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /profiles.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /quest_masters.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /quest_trees.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:30 -0600
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:31 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:31 -0600
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/profiles/3" for 127.0.0.1 at 2012-03-02 08:14:35 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProfile Load (0.7ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", "3"]]
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (0.9ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (1.0ms)[0m  SELECT "completed_quests".* FROM "completed_quests" 
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Rendered profiles/show.html.erb within layouts/application (176.4ms)
+Rendered shared/_login.html.erb (2.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mQuestMaster Load (0.9ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3
+Completed 200 OK in 291ms (Views: 246.5ms | ActiveRecord: 36.5ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /completed_quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /quest_trees.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /profiles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /quest_masters.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /secret.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /specialties.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /completed_quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /home.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /profiles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /quest_masters.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /quest_trees.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:36 -0600
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/profiles/3" for 127.0.0.1 at 2012-03-02 08:14:55 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProfile Load (1.5ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", "3"]]
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (0.9ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (1.0ms)[0m  SELECT "completed_quests".* FROM "completed_quests" 
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Rendered profiles/show.html.erb within layouts/application (186.8ms)
+Rendered shared/_login.html.erb (2.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (1.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mQuestMaster Load (0.9ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3
+Completed 200 OK in 404ms (Views: 356.8ms | ActiveRecord: 38.9ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /completed_quests.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /profiles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /quest_trees.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /quest_masters.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /secret.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /specialties.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /completed_quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /profiles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /quest_masters.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /quest_trees.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:56 -0600
+Served asset /sessions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:57 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:14:57 -0600
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/profiles/3" for 127.0.0.1 at 2012-03-02 08:15:07 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProfile Load (0.7ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", "3"]]
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (1.0ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (0.8ms)[0m  SELECT "completed_quests".* FROM "completed_quests" 
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Rendered profiles/show.html.erb within layouts/application (264.8ms)
+Rendered shared/_login.html.erb (2.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (1.3ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mQuestMaster Load (0.9ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3
+Completed 200 OK in 377ms (Views: 332.8ms | ActiveRecord: 37.2ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /completed_quests.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /profiles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /quest_trees.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /quest_masters.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /secret.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /sessions.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /specialties.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /completed_quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /home.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /profiles.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /quest_masters.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /quest_trees.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:08 -0600
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/profiles/3" for 127.0.0.1 at 2012-03-02 08:15:25 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProfile Load (0.9ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", "3"]]
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (1.0ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (0.8ms)[0m  SELECT "completed_quests".* FROM "completed_quests" 
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Rendered profiles/show.html.erb within layouts/application (170.7ms)
+Rendered shared/_login.html.erb (2.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (1.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mQuestMaster Load (1.0ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3
+Completed 200 OK in 287ms (Views: 242.8ms | ActiveRecord: 36.1ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:25 -0600
+Served asset /quest_masters.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:25 -0600
+Served asset /completed_quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:25 -0600
+Served asset /quest_trees.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:25 -0600
+Served asset /profiles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /secret.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /specialties.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /completed_quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /profiles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /quest_masters.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /quest_trees.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /quests.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:15:26 -0600
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/profiles/3" for 127.0.0.1 at 2012-03-02 08:16:10 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProfile Load (0.7ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", "3"]]
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (1.0ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (0.9ms)[0m  SELECT "completed_quests".* FROM "completed_quests" 
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" [0m
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Rendered profiles/show.html.erb within layouts/application (188.3ms)
+Rendered shared/_login.html.erb (85.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mProfile Load (2.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mQuestMaster Load (0.9ms)[0m  [1mSELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3[0m
+Completed 200 OK in 390ms (Views: 342.4ms | ActiveRecord: 38.9ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /completed_quests.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /quest_masters.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /profiles.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /quest_trees.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /secret.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /specialties.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /completed_quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /profiles.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /quest_masters.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /quest_trees.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /quests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:16:11 -0600
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/profiles/3" for 127.0.0.1 at 2012-03-02 08:17:58 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1  [["id", "3"]]
+  [1m[36mProfile Load (1.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCompletedQuest Load (1.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCompletedQuest Load (1.3ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "completed_quests".* FROM "completed_quests" 
+  [1m[36mQuest Load (0.9ms)[0m  [1mSELECT "quests".* FROM "quests" WHERE "quests"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1  [["id", 22]]
+  [1m[36mProfile Load (0.7ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mQuest Load (0.9ms)[0m  SELECT "quests".* FROM "quests" WHERE "quests"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Rendered profiles/show.html.erb within layouts/application (367.5ms)
+Rendered shared/_login.html.erb (2.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mQuestMaster Load (0.9ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3
+Completed 200 OK in 483ms (Views: 428.1ms | ActiveRecord: 47.5ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /profiles.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /completed_quests.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /quest_masters.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /quest_trees.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /quests.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /secret.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /specialties.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /completed_quests.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /profiles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /quest_masters.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /quest_trees.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /quests.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:17:59 -0600
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/profiles/3" for 127.0.0.1 at 2012-03-02 08:18:25 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProfile Load (0.7ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", "3"]]
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (0.9ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mQuest Load (0.9ms)[0m  SELECT "quests".* FROM "quests" WHERE "quests"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mProfile Load (0.8ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mProfile Load (0.7ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mQuest Load (0.7ms)[0m  [1mSELECT "quests".* FROM "quests" WHERE "quests"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Rendered profiles/show.html.erb within layouts/application (267.6ms)
+Rendered shared/_login.html.erb (2.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mProfile Load (1.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mQuestMaster Load (0.9ms)[0m  [1mSELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3[0m
+Completed 200 OK in 467ms (Views: 413.7ms | ActiveRecord: 46.2ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /completed_quests.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /quest_masters.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /quest_trees.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /profiles.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /quests.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /secret.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /specialties.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /users.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /completed_quests.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /quest_masters.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /profiles.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /quest_trees.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /users.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:18:26 -0600
+Served asset /specialties.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:18:27 -0600
+Served asset /quests.js - 304 Not Modified (2ms)
