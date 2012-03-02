@@ -53,26 +53,18 @@
   <tr>
     <th>Quest</th>
     <th>Reviewer</th>
-    <th>Profile</th>
     <th>Experience won</th>
     <th>Kelo won</th>
     <th>Comment</th>
-    <th></th>
-    <th></th>
-    <th></th>
   </tr>
 
 <% CompletedQuest.where(:profile_id=>Profile.where(:id=>@profile.id)[0].id).each do |completed_quest| %>
   <tr>
     <td><%= Quest.find(completed_quest.quest_id).name %></td>
     <td><%= Profile.find(completed_quest.reviewer_id).nick %></td>
-    <td><%= Profile.find(completed_quest.profile_id).nick %></td>
     <td><%= completed_quest.experience_won %></td>
     <td><%= completed_quest.kelo_won %></td>
     <td><%= completed_quest.comment %></td>
-    <td><%= link_to 'Show', completed_quest %></td>
-    <td><%= link_to 'Edit', edit_completed_quest_path(completed_quest) %></td>
-    <td><%= link_to 'Destroy', completed_quest, confirm: 'Are you sure?', method: :delete %></td>
   </tr>
 <% end %>
 </table>

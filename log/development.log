@@ -1,0 +1,181 @@
+
+
+Started GET "/profiles/3" for 127.0.0.1 at 2012-03-02 08:26:30 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProfile Load (2.6ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", "3"]]
+  [1m[35mProfile Load (1.1ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36m (1.9ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (1.4ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mQuest Load (60.9ms)[0m  SELECT "quests".* FROM "quests" WHERE "quests"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mProfile Load (0.8ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mQuest Load (0.8ms)[0m  SELECT "quests".* FROM "quests" WHERE "quests"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mProfile Load (0.7ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (1.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Rendered profiles/show.html.erb within layouts/application (566.2ms)
+Rendered shared/_login.html.erb (4.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mProfile Load (1.2ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mQuestMaster Load (1.6ms)[0m  [1mSELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3[0m
+Completed 200 OK in 1170ms (Views: 1019.0ms | ActiveRecord: 139.8ms)
+
+
+Started GET "/profiles/3" for 127.0.0.1 at 2012-03-02 08:26:36 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProfile Load (0.7ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1  [["id", "3"]]
+  [1m[36mProfile Load (1.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCompletedQuest Load (1.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mQuest Load (0.8ms)[0m  [1mSELECT "quests".* FROM "quests" WHERE "quests"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mProfile Load (0.8ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1  [["id", 22]]
+  [1m[36mQuest Load (0.7ms)[0m  [1mSELECT "quests".* FROM "quests" WHERE "quests"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Rendered profiles/show.html.erb within layouts/application (341.4ms)
+Rendered shared/_login.html.erb (2.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mProfile Load (0.9ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mQuestMaster Load (0.9ms)[0m  SELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3
+Completed 200 OK in 453ms (Views: 401.1ms | ActiveRecord: 45.3ms)
+
+
+Started GET "/profiles/3" for 127.0.0.1 at 2012-03-02 08:26:36 -0600
+  Processing by ProfilesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProfile Load (0.8ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", "3"]]
+  [1m[35mProfile Load (1.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCompletedQuest Load (0.9ms)[0m  SELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = 3
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "completed_quests".* FROM "completed_quests" WHERE "completed_quests"."profile_id" = 3[0m
+  [1m[35mQuest Load (0.8ms)[0m  SELECT "quests".* FROM "quests" WHERE "quests"."id" = $1 LIMIT 1  [["id", 7]]
+  [1m[36mProfile Load (0.8ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", 22]]
+  [1m[35mQuest Load (0.8ms)[0m  SELECT "quests".* FROM "quests" WHERE "quests"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mProfile Load (0.6ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Rendered profiles/show.html.erb within layouts/application (243.6ms)
+Rendered shared/_login.html.erb (2.4ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mProfile Load (0.9ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "profiles".* FROM "profiles" WHERE "profiles"."users_id" = 1
+  [1m[36mQuestMaster Load (0.9ms)[0m  [1mSELECT "quest_masters".* FROM "quest_masters" WHERE "quest_masters"."profile_id" = 3[0m
+Completed 200 OK in 354ms (Views: 303.2ms | ActiveRecord: 44.3ms)
+
+
+Started GET "/assets/completed_quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /completed_quests.css - 304 Not Modified (92ms)
+
+
+Started GET "/assets/profiles.css?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /profiles.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /home.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/quests.css?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /quests.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/quest_masters.css?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /quest_masters.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/quest_trees.css?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /quest_trees.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /scaffolds.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/secret.css?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /secret.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /sessions.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/specialties.css?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /specialties.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /users.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /jquery.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/completed_quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /completed_quests.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /home.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/profiles.js?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /profiles.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/quest_masters.js?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /quest_masters.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/quest_trees.js?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /quest_trees.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/quests.js?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /quests.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /sessions.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/specialties.js?body=1" for 127.0.0.1 at 2012-03-02 08:26:37 -0600
+Served asset /specialties.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-03-02 08:26:38 -0600
+Served asset /users.js - 304 Not Modified (9ms)
